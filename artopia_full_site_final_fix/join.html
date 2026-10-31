@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join — Artopia</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header role="banner" aria-label="Main header">
+    <div class="header-inner">
+      <h1 class="brand"> <img src="images/Logo (2).png" alt="Artopia logo" class="logo">Artopia</h1>
+      <button class="menu-btn" aria-label="Toggle menu">☰</button>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Events ▾</a>
+            <ul>
+              <li><a href="events.html">All Events</a></li>
+              <li><a href="activities.html">Activities</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+          </li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="members.html">Members</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">FAQs</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+<main class="container">
+ <main class="container">
+  <section class="card">
+    <h2>Join Artopia</h2>
+    <form id="joinForm" aria-label="Join form">
+
+      <!-- Full Name -->
+      <label>Full Name<br>
+        <input type="text" name="fullname" placeholder="Enter your full name" required>
+      </label><br><br>
+
+      <!-- Email -->
+      <label>Email<br>
+        <input type="email" name="email" placeholder="abc@gmail.com" required>
+      </label><br><br>
+
+      <!-- Interests -->
+      <fieldset>
+        <legend>Interests</legend>
+        <label><input type="checkbox" name="interest" value="camping"> Camping</label>
+        <label><input type="checkbox" name="interest" value="dancing"> Dancing</label>
+        <label><input type="checkbox" name="interest" value="hiking"> Hiking</label>
+        <label><input type="checkbox" name="interest" value="climbing"> Climbing</label>
+      </fieldset><br>
+
+      <!-- Message -->
+      <label>Message<br>
+        <textarea name="message" rows="4" placeholder="Write your message..."></textarea>
+      </label><br><br>
+
+      <!-- Submit Button -->
+      <button class="btn" type="submit">Submit</button>
+    </form>
+
+    <!-- Note -->
+    <p class="form-note">📩 You will receive a confirmation email within <strong>3 days</strong>.</p>
+  </section>
+</main>
+
+</main>
+
+
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-links">
+      <a href="about.html">About Us</a> | 
+      <a href="contact.html">Contact</a> | 
+      <a href="join.html">Join Us</a>
+    </div>
+
+    <div class="social">
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <div class="copy">
+      Artopia — Student Club • © 2025
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>

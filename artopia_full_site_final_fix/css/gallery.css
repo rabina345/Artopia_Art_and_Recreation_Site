@@ -1,0 +1,94 @@
+/* Modal Styling */
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1000;
+  padding-top: 5%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(0,0,0,0.8);
+  text-align: center;
+}
+
+.modal-content {
+  display: inline-block;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  max-width: 80%;
+}
+
+.modal img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+.controls button {
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background: #3730a3;
+}
+
+/* Gallery modal image styling */
+#galleryModal img {
+  width: 600px;          /* fixed width */
+  height: 400px;         /* fixed height */
+  object-fit: cover;     /* crops but keeps proportions */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  display: block;
+  margin: 0 auto;
+}
+/* Make Gallery cards bigger */
+.gallery-card {
+  width: 320px;        /* increase width */
+  height: 220px;       /* increase height */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Target only Gallery section header */
+#gallery h2 {
+  font-family: "Poppins", sans-serif;   /* different font */
+  font-size: 2.2rem;                     /* bigger */
+  font-weight: 700;
+  color: #2c3e50;                        /* deep color */
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  border-left: 6px solid #6c63ff;        /* accent line */
+  padding-left: 12px;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Artopia</title>
+  <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/contact.css">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header role="banner" aria-label="Main header">
+    <div class="header-inner">
+      <h1 class="brand"> <img src="images/Logo (2).png" alt="Artopia logo" class="logo">Artopia</h1>
+      <button class="menu-btn" aria-label="Toggle menu">☰</button>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Events ▾</a>
+            <ul>
+              <li><a href="events.html">All Events</a></li>
+              <li><a href="activities.html">Activities</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+          </li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="members.html">Members</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">FAQs</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+<main class="container">
+<section class="contact-wrap">
+
+  <!-- Row: Contact card + Map -->
+  <div class="contact-row">
+    <article class="contact-card">
+      <h2>Contact Us</h2>
+      <p><strong>Email:</strong> artopia@university.edu</p>
+      <p><strong>Phone:</strong> 01523564</p>
+      <p><strong>Location:</strong> Student Union, Makalu</p>
+      <p class="muted">We usually reply within 1–2 business days.</p>
+    </article>
+
+    <div class="map-card">
+     
+      <iframe
+        src="https://www.google.com/maps?q=New%20Baneshwor%20Kathmandu&output=embed"
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+
+  <!-- Feedback -->
+  <form id="feedbackForm" class="feedback-card" novalidate>
+    <h3>Send Us Your Feedback</h3>
+
+    <div class="grid-2">
+      <label>Full Name
+        <input type="text" name="name" placeholder="Ram Kumar" required>
+      </label>
+
+      <label>Email
+        <input type="email" name="email" placeholder="you@example.com" required>
+      </label>
+    </div>
+
+    <label>Message
+      <textarea name="message" rows="5"
+        placeholder="Tell us what you loved, what we can improve, or ideas for new events…" required></textarea>
+    </label>
+
+    <label class="file">
+      <span>Attach a screenshot or image (optional)</span>
+      <input type="file" id="imageInput" accept="image/*">
+    </label>
+
+    <div class="preview" id="preview"></div>
+
+    <button type="submit" class="btn">Submit</button>
+  </form>
+</section>
+</main>
+
+
+  
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-links">
+      <a href="about.html">About Us</a> | 
+      <a href="contact.html">Contact</a> | 
+      <a href="join.html">Join Us</a>
+    </div>
+
+    <div class="social">
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <div class="copy">
+      Artopia — Student Club • © 2025
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
